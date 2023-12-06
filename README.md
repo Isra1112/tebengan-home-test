@@ -1,9 +1,9 @@
 # Tebengan Backend Home Test
 ## Description
 Caching Flow :
-1. Get Data
+1. Get Data <br />
 ![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/img/redis-1.jpg?raw=true)
-2. Mutation Operation 
+2. Mutation Operation <br />
 ![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/img/redis-2.jpg?raw=true)
 
 
