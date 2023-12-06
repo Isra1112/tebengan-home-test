@@ -2,9 +2,9 @@
 ## Description
 Caching Flow :
 1. Get Data
-![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/redis-1.jpg?raw=true)
+![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/img/redis-1.jpg?raw=true)
 2. Mutation Operation 
-![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/redis-2.jpg?raw=true)
+![alt text](https://github.com/Isra1112/tebengan-home-test/blob/master/img/redis-2.jpg?raw=true)
 
 
 #### Redis Configuration Path :
