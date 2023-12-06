@@ -1,0 +1,50 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: ID!
+  name: String!
+  address: String!
+}
+
+type Booking {
+  id: ID!
+  name: String!
+  bookingDate: Date!
+  user: User!
+  deletedAt: String
+}
+
+type Task {
+  id: ID!
+  title: String!
+  bookings: [Booking!]
+}
+
+"""Date custom scalar type"""
+scalar Date
+
+type Query {
+  sayHelloBooking: String!
+  getListBooking(userId: String = null): [Booking!]!
+  sayHelloTask: String!
+  getListTask: [Task!]!
+}
+
+type Mutation {
+  createBooking(BookingInput: BookingInput!): Booking!
+  cancelBooking(id: String!): Booking!
+  createTask(TaskInput: TaskInput!): Task!
+}
+
+input BookingInput {
+  name: String!
+  task: String!
+  user: String!
+  bookingDate: Date!
+}
+
+input TaskInput {
+  title: String!
+}
