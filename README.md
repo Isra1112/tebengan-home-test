@@ -19,7 +19,7 @@ Caching Flow :
 
 ### Query and Mutation Example
 Query : 
-```path
+```
 query GetListBooking {
     getListBooking {
         id
@@ -66,9 +66,9 @@ query GetListTask {
     }
 }
 ```
-<br>
+
 Mutation : 
-```path
+```
 mutation CreateBooking {
     createBooking(BookingInput: {
             name: "booking2"
