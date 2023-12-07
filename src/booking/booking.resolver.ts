@@ -37,8 +37,8 @@ export class BookingResolver {
 
         let bookingToCreate = new Booking();
         bookingToCreate.name = booking.name;
-        bookingToCreate.taskId = booking.task;
-        bookingToCreate.userId = booking.user;
+        bookingToCreate.taskId = booking.taskId;
+        bookingToCreate.userId = booking.userId;
         bookingToCreate.bookingDate = booking.bookingDate;
 
 

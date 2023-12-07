@@ -40,8 +40,8 @@ type Mutation {
 
 input BookingInput {
   name: String!
-  task: String!
-  user: String!
+  taskId: String!
+  userId: String!
   bookingDate: Date!
 }
 

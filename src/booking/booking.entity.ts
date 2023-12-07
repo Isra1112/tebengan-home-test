@@ -65,11 +65,11 @@ export class BookingInput {
 
     @IsDefined({ message: 'task is required' })
     @Field(() => String)
-    task: string;
+    taskId: string;
 
     @IsDefined({ message: 'user is required' })
     @Field(() => String)
-    user: string;
+    userId: string;
 
     // booking date canot lower than today
     @IsNotEmpty({ message: 'bookingDate is required' })
